@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: roi-beauty-api
+    env: node
+    rootDir: .
+    buildCommand: npm install
+    startCommand: node index.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        generateValue: true
