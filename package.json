@@ -1,0 +1,46 @@
+{
+  "name": "roibeauty-backend",
+  "version": "2.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "seed": "node scripts/seedProducts.js",
+    "create-admin": "node scripts/create-admin.js",
+    "check-users": "node scripts/check-user-model.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "skincare",
+    "ecommerce",
+    "beauty",
+    "nodejs",
+    "express"
+  ],
+  "author": "ROI Beauty",
+  "license": "ISC",
+  "description": "Premium skincare e-commerce platform",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "connect-mongo": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.2.1",
+    "express-session": "^1.18.1",
+    "express-validator": "^7.3.0",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.19.3",
+    "morgan": "^1.10.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^7.0.10",
+    "nodemon": "^3.1.11",
+    "sharp": "^0.33.5",
+    "stripe": "^20.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
